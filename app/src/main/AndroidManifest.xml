@@ -38,15 +38,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".data.firebase.cloudM
-            essaging.MyFirebaseMessagingService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-
         <!-- Declaración del servicio de ubicación -->
         <service
             android:name=".utils.LocationUpdateService"
