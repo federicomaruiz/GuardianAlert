@@ -1,6 +1,5 @@
 package com.fedeyruben.proyectofinaldamd.ui.alertScreen
 
-
 import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -94,7 +93,8 @@ fun AlertScreenInit(alertViewModel: AlertViewModel ) {
                     showAlertConfirmDialog = false
                     showCountdownDialog = true
                     alertViewModel.resetCanceled()  // Reset canceled state
-                }, colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF8BC34A))) {
+                }, colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF8BC34A))
+                ) {
                     Text(text = stringResource(id = R.string.confirm))
                 }
             },
@@ -103,7 +103,7 @@ fun AlertScreenInit(alertViewModel: AlertViewModel ) {
                     onClick = { showAlertConfirmDialog = false },
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF44336))
                 ) {
-                   Text(text = stringResource(id = R.string.cancel))
+                    Text(text = stringResource(id = R.string.cancel))
                 }
             }
         )
@@ -124,7 +124,7 @@ fun AlertScreenInit(alertViewModel: AlertViewModel ) {
                     alertViewModel.cancelAlert(currentAlert)
                     showCancelAlertDialog = false
                 }, colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF8BC34A))) {
-                    R.string.yes
+                    Text(stringResource(id = R.string.yes))
                 }
             },
             dismissButton = {
@@ -234,7 +234,7 @@ fun AlertSentDialog(onDismiss: () -> Unit) {
         title = {
             Text(
                 text = stringResource(id = R.string.alert_sent_title),)
-             },
+        },
         text = { Text(stringResource(id = R.string.alert_sent_text)) },
         confirmButton = {
             Button(onClick = onDismiss) {

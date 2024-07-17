@@ -6,7 +6,7 @@
     <string name="maps">Maps</string>
     <string name="friends">Friends</string>
     <string name="permiss_tittle">Permisos necesarios</string>
-    <string name="permiss_text">Necesitamos acceso a tu ubicación, contactos y al estado de tú dispositivo móvil para proporcionarte una mejor experiencia.\n                            Por favor, concede los permisos en la configuración de la aplicación. Una vez concedidos podrás seguir disfrutando de la aplicación.</string>
+    <string name="permiss_text">Necesitamos acceso a tu ubicación, contactos y al estado de tú dispositivo móvil para proporcionarte una mejor experiencia.\n Por favor, concede los permisos en la configuración de la aplicación. Una vez concedidos podrás seguir disfrutando de la aplicación.</string>
     <string name="open_settings">Abrir configuración</string>
     <string name="alert_sent">¡¡¡ALERTA EN CURSO!!!</string>
     <string name="alert_confirm_title">Confirmación</string>
@@ -18,7 +18,7 @@
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="alert_sending_title">Enviando Alerta</string>
-    <string name="alert_sending_text">¡¡¡ESTÁ ENVIANDO UNA ALERTA!!!\\nEnviando en</string>
+    <string name="alert_sending_text">¡¡¡ESTÁ ENVIANDO UNA ALERTA!!! Enviando en</string>
     <string name="alert_sent_title">Alerta Enviada</string>
     <string name="alert_sent_text">La alerta ha sido enviada con éxito.</string>
     <string name="close">Cerrar</string>
@@ -66,4 +66,6 @@
     <string name="nivel_alerta_medio">Nivel de alerta medio</string>
     <string name="nivel_alerta_alto">Nivel de alerta alto</string>
     <string name="nivel_alerta_critico">Nivel de alerta máximo</string>
+    <string name="msg_token_fmt">Token</string>
+    <string name="notification_channel_id">0</string>
 </resources>
